@@ -24,17 +24,15 @@ const Gallery = ({data}) => (
         
         {/* using the components below */}
         <Img fluid={
-            data.gatsbymanojid.childImageSharp.fluid} alt="ManojId" style={{ width: 150, float: "right", marginLeft: 20, marginBottom: 10 }} />
+            data.gatsbyXXX.childImageSharp.fluid} alt="ManojId" style={{ width: 150, float: "right", marginLeft: 20, marginBottom: 10 }} />
 
-            <p> While working at MVP Studio, I have realised the importance of team-work, communication and collaboration which makes learning and getting results so much faster and simpler. One of my favourite ways to learn is to teach. I find teaching others gratifying and I know that in order to teach we just have to be one chapter ahead. Just to enhance my knowledge in the back end, I had recently build an interactive bank’s website using PHP, JS, HTML and CSS and phpMyAdmin. </p>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
         <Img fixed={
             data.gatsbyProfileImage.childImageSharp.fixed} alt="ProfileImage" style={{ width: 200, height: 150, float: "left", marginRight: 20, marginBottom: 10 }} />
         
 
 
-            <p> To gain better understanding of the front end and back end development I have gained several online certifications from Linkedin and Microsoft Virtual Academy which could be viewed on my Linkedin profile at https: //www.linkedin.com/in/manoj-d-b5428815b/.
-            Based on my 4 years of experience coupled with my Software development credentials, I believe I would make an excellent addition to your team, which will provide mutual growth.
-            I am very passionate to work with you and your company because it will allow me to learn different technologies in an encouraging environment, that will keep me motivated to deliver better results.
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
         
     </Layout>
@@ -47,7 +45,7 @@ data:PropTypes.object.isRequired,
 export const query = graphql`
     {
         gatsbyProfileImage: file(relativePath: {
-            eq: "gatsby-facebook.png"
+            eq: "gatsby-XXX.png"
         }) {
             childImageSharp {
                 fixed(width: 512) {
@@ -56,7 +54,7 @@ export const query = graphql`
             }
         }
         gatsbymanojid: file(relativePath: {
-            eq: "gatsby-manoj.png"
+            eq: "gatsby-XXX.png"
         }) {
             childImageSharp {
                 fluid(maxWidth: 800) {
