@@ -25,8 +25,8 @@ const Portfolio = ({data}) => (
     {/* using the components below */}
     <Img fluid={
       data.Frontpage.childImageSharp.fluid} alt="Frontpage1" style={{ width: 400, height: 150, float: "right", marginLeft: 40, marginBottom: 20 }} />
-    <p>Portfolio projects 
-While working at MVP Studio, I have realised the importance of team - work, communication and collaboration which makes learning and getting results so much faster and simpler.One of my favourite ways to learn is to teach.I find teaching others gratifying and I know that in order to teach we just have to be one chapter ahead.Just to enhance my knowledge in the back end, I had recently build an interactive bank’ s website using PHP, JS, HTML and CSS and phpMyAdmin. </p>
+    <p>Portfolio project1
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
 
     <Img fluid={
       data.Frontpage.childImageSharp.fluid} alt="Frontpage2" style={{ width: 200, height: 150, float: "left", marginRight: 20, marginBottom: 10 }} />
@@ -34,8 +34,8 @@ While working at MVP Studio, I have realised the importance of team - work, comm
 
     <Img fluid={
       data.Frontpage.childImageSharp.fluid} alt="Frontpage3" style={{ width: 200, height: 150, float: "right", marginLeft: 20, marginBottom: 10 }} />
-    <p>Portfolio projects 
-While working at MVP Studio, I have realised the importance of team - work, communication and collaboration which makes learning and getting results so much faster and simpler.One of my favourite ways to learn is to teach.I find teaching others gratifying and I know that in order to teach we just have to be one chapter ahead.Just to enhance my knowledge in the back end, I had recently build an interactive bank’ s website using PHP, JS, HTML and CSS and phpMyAdmin. </p>
+    <p>Portfolio project2 
+WLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.. </p>
 
     <Img fluid={
       data.Frontpage.childImageSharp.fluid} alt="Frontpage4" style={{ width: 400, height: 150, float: "left", marginRight: 20, marginBottom: 10 }} />
